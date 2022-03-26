@@ -1,6 +1,6 @@
 # Project 3 - *Parstagram: Instagram Clone*
 
-**Parstagram: Instagram Clone** is a photo sharing app similar to Instagram but using Parse as its backend.
+**Parstagram** is a photo sharing app similar to Instagram but using Parse as its backend.
 
 Time spent: **5** hours spent in total
 
