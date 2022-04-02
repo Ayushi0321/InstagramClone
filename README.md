@@ -26,7 +26,7 @@ The following **optional** features are implemented:
       - [X] Display the profile photo with each post
       - [ ] Tapping on a post's username or profile photo goes to that user's profile page and shows a grid view of the user's posts 
 - [ ] User can comment on a post and see all comments for each post in the post details screen.
-- [X] User can like a post and save a post.
+- [X] User can like and save a post.
 
 The following **additional** features are implemented:
 
