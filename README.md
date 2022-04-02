@@ -31,6 +31,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [X] Added a layover activity which displays the instagram logo before launching the HomeFeed
+- [X] Display a placeholder image if profile picture is unavailable
 - [X] Styled the login page to look exactly like the Instagram App
 
 ## Video Walkthrough
