@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
 
         //check if user is logged in, If yes, take them to MainActivity
         if(ParseUser.getCurrentUser() != null) {
-            goToMainActivity()
+            goToLayover()
         }
         
         findViewById<Button>(R.id.btnLogin).setOnClickListener {
@@ -44,7 +44,7 @@ class LoginActivity : AppCompatActivity() {
                 // User has successfully logged in
                 // TODO: Navigate the user to MainActivity
                 Toast.makeText(this, "New Account created", Toast.LENGTH_SHORT).show()
-                goToMainActivity()
+                goToLayover()
                 // TODO: Show a toast to indicate user successfully signed up for an account
             } else {
                 //TODO: Show Toast to tell user signup was not success
@@ -59,7 +59,7 @@ class LoginActivity : AppCompatActivity() {
             if (user != null) {
                 Log.i(TAG, "Successfully Logged In")
                 Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
-                goToMainActivity()
+                goToLayover()
             } else {
                 e.printStackTrace()
                 Toast.makeText(this, "Login Error", Toast.LENGTH_SHORT).show()
@@ -67,8 +67,8 @@ class LoginActivity : AppCompatActivity() {
         )
     }
 
-    private fun goToMainActivity() {
-        val intent = Intent(this@LoginActivity, MainActivity::class.java)
+    private fun goToLayover() {
+        val intent = Intent(this@LoginActivity, Layover::class.java)
         startActivity(intent)
         finish()
     }
