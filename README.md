@@ -43,7 +43,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Figuring out how to add profile citures was a learning curve for me. For the layover icon activity it took me some research on how to delay from one one activity to another. I have tried to make the feed and user experience to exactly look like the original Instagram App. 
+Figuring out how to add profile pictures was a learning curve for me. For the layover icon activity it took me some research on how to delay from one activity to another. I have tried to make the feed and user experience to exactly look like the original Instagram App. 
 
 ## Open-source libraries used
 
